@@ -1,0 +1,59 @@
+.outdoor-roofing-container {
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("/public/outdoor-roofing.png");
+  position: relative;
+}
+
+.outdoor-roofing-text-container {
+  position: absolute;
+  left: 10%;
+  top: 20vh;
+  place-content: space-evenly;
+  width: 40vw;
+  height: 45vh;
+}
+
+.outdoor-roofing-text-container > * {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.animate-1 {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s, transform 0.8s;
+  transition-delay: 0s;
+}
+
+.animate-2 {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s, transform 0.8s;
+  transition-delay: 0.8s;
+}
+
+.animate-3 {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s, transform 0.8s;
+  transition-delay: 1.6s;
+}
+
+.dealers-button {
+  width: fit-content !important;
+  padding: 15px 30px !important;
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  border-radius: 0px !important;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.8s, transform 0.8s;
+  transition-delay: 1.6s;
+}
+
+.dealers-button:hover {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+}

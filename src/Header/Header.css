@@ -1,0 +1,17 @@
+.header {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 5px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 2;
+}
+
+.header-grid {
+  text-align: center;
+  height: 10vh;
+  color: #545759;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.975px;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.roof-type-header {
+  height: 10vh;
+  position: sticky;
+  top: 10vh;
+  z-index: 2;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.non-active {
+  text-decoration: none;
+}
+
+.roof-section {
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.roof-section-animate {
+  opacity: 1 !important;
+}
